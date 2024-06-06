@@ -1,0 +1,42 @@
+----------------------HTML----------------------
+
+HTML - Hyper Text Markup Language, it is used to design the structure of the webpage.
+
+The HTML tells the browser how to display the content.
+
+Each element have their own behaviour.
+
+When we start writting the html code, we first write DOCTYPE which represent that this is a HTML code.
+
+Head tag contains meta information about the html page.
+
+block elements and inline elements
+
+Types of tags:
+  - html
+  - head
+  - title
+  - body
+  - h1 to h6
+  - p
+  - a (href="")(href is used to provide the url)
+  - img (src="", alt="")(src is used to provide the path of the image, alt is used to provide the information about the image when the  image is not loaded in the webpage)
+  - button
+  - blockquote (cite)(provides information about the quote)
+  - q (used to give quotes)
+  - abbr (used to give the abbreviation )
+  - address (used to write addresses)
+  - br (break to nwew line)
+
+  There are 3 types of lists Ordered and unordered and description lists
+  - ul, li
+  - ol, li
+  - dl, dt, dd (description list, description title, description decription)
+
+  - hr (gives a horizontal line)
+  - b (make text bold)
+  - i (make text italic)
+  - u (underline the text)
+  - div (often used as a container)
+  - span (it is a inline element which is used to mark up a part of text or document)
+  
