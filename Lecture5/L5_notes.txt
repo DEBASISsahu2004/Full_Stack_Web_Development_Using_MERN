@@ -1,0 +1,32 @@
+-----------------------CSS-----------------------
+
+-- CSS Selectors: Theses are used to select a HTML element.
+
+-- Types of selectors:
+1. Simple selector
+2. Combinator selector
+3. Pseudo-class Selector
+4. Pseudo-element Selector
+5. Attribute Selector
+
+1. Simple selectors
+-- Element selector: Selects the element by the tag name
+-- ID selector: Selects the element by the id 
+-- class selector: selects the element by class name
+-- Universal Selector: Selects all the elements in the html page
+-- Grouping selectors: selects all the html elements which has same style definations4
+
+2. Combinator Selectors
+-- Descendant selector
+-- Child selector
+-- Adjacent sibling selector
+-- General sibling selector
+
+3. Pseudo class selectors
+-- This is used to style the element when ever there is an action like mouseover, etc
+
+4. Pseudo element Selectors
+-- This is used to style a specfic part of an element
+
+5. Attribute selectors
+-- 
