@@ -1,0 +1,11 @@
+-------------------------JS-------------------------
+
+-- let: This keyword is used to create a variable which has a block level scope
+
+-- const: This keyword is used to create a constant type variable which has a constant value
+
+arrow function: if it is single line function we don't need to write the return statement and the curly brackets
+
+... : This is spread operator which is used to expalnd any array like data structure
+
+rest operator
