@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+</head>
+<body>
+    <main>
+        <!-- <h1 onclick="this.innerHTML=`This is after click!`">My Page Title</h1> -->
+        <h1 onclick="changeText(this)">My Page Title</h1>
+        <p>Nice caption goes here</p>
+
+        <article class="first_article">
+            <h2>List of amazing fruits</h2>
+            <p>Must eat fruits</p>
+            <div class="wrapper-1">
+                <ul class="apple-list">
+                    <l1 class="apple">Apples</l1>
+                    <li class="orange">Oranges</li>
+                    <li class="avocado">Avocados</li>
+                    <li class="grape">Grapes
+                        <ul>
+                            <li class="type-1">Moon drops</li>
+                            <li>Sultana</li>
+                            <li>Concord</li>
+                            <li>Crimson seedless</li>
+                        </ul>
+                    </li>
+                    <li class="banana">Bananas</li>
+                </ul>
+        
+                <button class="btn-1">Read full list</button>
+            </div>
+        </article>
+
+        <article class="second_article">
+            <h2>Amazing places in Kenya</h2>
+            <p>Must visit places in Kenya</p>
+
+            <div class="wrapper-2">
+                <ul class="places-list">
+                    <l1>Maasai Mara</l1>
+                    <l1>Diani Beach</l1>
+                    <l1>Watamu Beach</l1>
+                    <l1>Ambosali national part</l1>
+                    <l1>Lake Nakuru</l1>
+                </ul>
+
+                <button class="btn-2">Read full list</button>
+
+                <div>
+                    <button onclick="displayDate()">The time is:</button>
+                    <p id="demo"></p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- <form > -->
+        <input type="text" id="firstName" onchange="uppercase()">
+    <!-- </form> -->
+
+    <div
+        onmouseover="mOver(this)" 
+        onmouseout="mOut(this)"
+        style="background-color: red; width: 120px; height: 20px; padding: 40px;">
+        Mouse over me.
+    </div>
+
+    <div
+        onmouseup="mUp(this)" 
+        onmousedown="mDown(this)"
+        style="background-color: yellow; width: 120px; height: 20px; padding: 40px;">
+        Click me.
+    </div>
+
+    <script>
+        function changeText(id){
+            id.innerHTML = "This is after click!";
+        }
+
+        function displayDate(){
+            document.getElementById("demo").innerHTML = new Date();
+        }
+
+        function uppercase(){
+            let x = document.getElementById("firstName");
+            x.value = x.value.toUpperCase();
+        }
+
+        function mOver(obj){
+            obj.innerHTML = "Thank you";
+        }
+
+        function mOut(obj){
+            obj.innerHTML = "Mouse over me."
+        }
+
+        function mUp(obj){
+            obj.style.backgroundColor = "cyan";
+            obj.innerHTML = "Thank you";
+        }
+
+        function mDown(obj){
+            obj.style.backgroundColor = "purple";
+            obj.innerHTML = "Release me.";
+        }
+    </script>
+</body>
+</html>

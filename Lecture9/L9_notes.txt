@@ -1,0 +1,3 @@
+-- Events: An event is any kind of user interaction like pressing any key or hovering , etc.
+
+-- onclick, onmouseover, onmouseout, onmouseup, onmousedown
