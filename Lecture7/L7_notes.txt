@@ -1,0 +1,5 @@
+Document Object Model(DOM): It is the representation of the HTML in different formats with the help of JS objects.
+
+document.write(): This will overwrite the content of the webpage.
+document.writeln(): This appends the text in the webpage.
+
