@@ -1,0 +1,13 @@
+-- Objects: It is a unique entity that contains some properties and methods.
+
+-- Objects can be created in 2 ways in JS
+    1. Object literal
+    2. Object constructor
+    3. Object.create()
+
+-- Classes: These are blueprints of an object.
+
+-- Abstruction: It means displaying only the essential information and hiding the details.
+
+-- Encapsulation: The process of wrapping propertiews and functions within a single unit.
+
