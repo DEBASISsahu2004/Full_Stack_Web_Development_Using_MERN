@@ -1,0 +1,3 @@
+querySelector(): This is sued to select an specific HTML element.
+
+querySelectorAll(): This is used to select a group of HTML elements.

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+</head>
+<body>
+    <h1>My Page Title</h1>
+    <p>Nice caption goes here</p>
+
+    <article class="first_article">
+        <h2>List of amazing fruits</h2>
+        <p>Must eat fruits</p>
+        <div class="wrapper-1">
+            <ul class="apple-list">
+                <l1 class="apple">Apples</l1>
+                <li class="orange">Oranges</li>
+                <li class="avocado">Avocados</li>
+                <li class="grape">Grapes
+                    <ul>
+                        <li class="type-1">Moon drops</li>
+                        <li>Sultana</li>
+                        <li>Concord</li>
+                        <li>Crimson seedless</li>
+                    </ul>
+                </li>
+                <li class="banana">Bananas</li>
+            </ul>
+    
+            <button class="btn-1">Read full list</button>
+        </div>
+    </article>
+
+    <article class="second_article">
+        <h2>Amazing places in Kenya</h2>
+        <p>Must visit places in Kenya</p>
+
+        <div class="wrapper-2">
+            <ul class="places-list">
+                <l1>Maasai Mara</l1>
+                <l1>Diani Beach</l1>
+                <l1>Watamu Beach</l1>
+                <l1>Ambosali national part</l1>
+                <l1>Lake Nakuru</l1>
+            </ul>
+
+            <button class="btn-2">Read full list</button>
+        </div>
+    </article>
+</body>
+</html>
+
+const headings = document.querySelectorAll("h2");
+headings
+// NodeList(2) [h2, h2]
+
+const firstHeading = headings[0]
+firstHeading
+// <h2>​List of amazing fruits​</hjson>
+const seconsHeading = headings[1]
+seconsHeading
+// <h2>Amazing places in Kenya</h2>
+
+document.querySelector(".orange").innerHTML
+ "Oranges"
+
+comst appleList = document.querySelector(".appleList")
+
+appleList.children
+
+appleList.childNodes
+
+appleLlist.firstChild
+
+appleList.lastChild
+
+appleList.parentElement
+      <div class="wrapper-1">..</div>
+appleList.parentNode
+      <div class="wrapper-1">..</div>
+const btn1 = document.querySelector(".btn-1")
+btn1.closest("main")
+      <main>...</main>
+btn1
+    <button class="btn-1">Read full List</button>
+const orange = document.querySelector(".orange")
+
+const apple  = orange.previousElemnentSibling;
+const avocado = orange.nextElementSibling;
+
+apple
+  <li class="apple">..</li>
+avocado
+  <li class="avocado">..</li>
