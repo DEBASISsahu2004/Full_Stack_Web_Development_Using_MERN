@@ -17,8 +17,8 @@ const ToDoScreen = function(){
 
                 <section>
                     <div className="ui cards">
-                        {taskList.map((task) => (
-                            <Task task={task}/>
+                        {taskList.map((task, index) => (
+                            <Task task={task} key={index}/>
                         ))}
                     </div>
                 </section>
