@@ -1,0 +1,2 @@
+-- Function based component or functional component is mostly used instead of class based component because they are light weight, easy to use and we can use hooks and are reuseable.
+
