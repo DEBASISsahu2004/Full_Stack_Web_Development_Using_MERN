@@ -1,4 +1,6 @@
 import ToDoScreen from "./screens/ToDoScreen";
+import AddTask from "./screens/AddTask";
+import {useState} from "react";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
  
 const router = createBrowserRouter([
@@ -7,7 +9,7 @@ const router = createBrowserRouter([
         element: <ToDoScreen/>
     },
     {
-        path: "/ass-task",
+        path: "/add-task",
         element: <AddTask />
     },
 ]);
