@@ -1,5 +1,5 @@
 import ToDoScreen from "./screens/ToDoScreen";
-import AddTask from "./screens/AddTask";
+import AddTask from "./components/AddTask";
 import {useState} from "react";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
  

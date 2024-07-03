@@ -11,7 +11,7 @@ const Task =({task: {title, description, createdDate}})=>{
                 <div className="header">
                     {title}
                 </div>
-                <div class="meta">
+                <div className="meta">
                     {/* {createdDate.toLocateTimeString()} */}
                     {formatDate(createdDate)}
                 </div>
