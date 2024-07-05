@@ -1,8 +1,4 @@
-// const Task =(props)=>{
-
-//     console.log(props);
-
-import {formatDate} from "../utils/DateUtil"
+import {formatDate} from "../utils/DateUtil";
 
 const Task =({task: {title, description, createdDate}})=>{
     return (
