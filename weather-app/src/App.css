@@ -1,0 +1,23 @@
+@import url(https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css);
+
+.App {
+  text-align: center;
+}
+
+.app{
+  padding: 18vh 20%;
+  height: 100vh;
+}
+
+.table-custom{
+  text-align: center;
+}
+
+.dark{
+  color: white !important;
+  background-color: black;
+}
+
+.my-heading{
+  margin-bottom: 5vh;
+}
