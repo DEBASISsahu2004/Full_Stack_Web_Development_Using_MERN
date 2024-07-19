@@ -1,25 +1,46 @@
-export function addToLocalStorage(key, value){
-    if(typeOf(value) === "object"){
-        localStorage.setItem(key, Json.Stringify(value));
+function addToLocalStorage(key, value){
+    if(typeof(value) === "object"){
+        localStorage.setItem(key, JSON.stringify(value));
     }else{
         localStorage.setItem(key, value);
     }
 }
 
-export function getFromLocalStorage(key){
+function getFromLocalStorage(key){
     let value = localStorage.getItem(key);
     if(!value){
         return null;
     }
 
     try{
-        return Json.parse(value);
+        return JSON.parse(value);
     }catch(err){
         return value;
     }
 }
 
-export function removeFromLocaStorage(key){
+function updateFromLocalStorage(key, newValue){
+    let value = localStorage.getItem(key);
+    if(!value){
+        return null;
+    }
+
+    try{
+        localStorage.setItem(key, newValue);
+    }catch(err){
+        return value;
+    }
+}
+
+function removeFromLocaStorage(key){
     localStorage.removeItem(key);
 }
 
+const methods = {
+    addToLocalStorage,
+    getFromLocalStorage,
+    updateFromLocalStorage,
+    removeFromLocaStorage,
+};
+
+export default methods;

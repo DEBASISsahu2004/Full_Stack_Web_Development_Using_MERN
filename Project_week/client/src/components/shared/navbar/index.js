@@ -11,7 +11,7 @@ function Navbar() {
         <article className={styles['search-bar']}>
             <Icon icon={"wpf:search"} />
             <Input 
-            placeholder="Search Notes" 
+            placeholder="Search Note" 
             type="text" 
             className={styles["field"]}
             value={searchText} 
