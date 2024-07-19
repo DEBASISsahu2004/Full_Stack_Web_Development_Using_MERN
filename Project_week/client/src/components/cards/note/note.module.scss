@@ -1,0 +1,41 @@
+.container{
+    display: grid;
+    width: 100%;
+    aspect-ratio: 5/ 4;
+    padding: 15px;
+    background-color: rgb(251, 235, 147, 0.4);
+    grid-template-rows: auto 25px;
+    border-radius: 10px; 
+
+    .content{
+        p{
+            font-size: var(--fs-md);
+            font-weight: var(--fw-normal);
+            line-height: 25px;
+            color: #3c3d43;
+            overflow: hidden;
+            display: -webkit-box;
+            line-clamp: 5;
+            -webkit-line-clamp: 5;
+            -webkit-box-orient: vertical;
+        }
+
+        .expanded{
+            display: block;
+        }
+
+        button{
+            background-color: transparent;
+            color: var(--grey);
+            cursor: pointer;
+            line-height: 30px;
+            text-transform: capitalize;
+        }
+    }
+    
+
+    .footer{
+        font-size: var(--fs-sm);
+        color: var(--grey);
+    }
+}
