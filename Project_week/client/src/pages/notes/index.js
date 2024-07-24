@@ -17,19 +17,17 @@ function Notes() {
       setNotesColl(data);
       return;
     };
-    utils.addToLocalStorage('notes-data', notesData);
+
+    utils.addToLocalStorage(types.NOTES_DATA, notesData);
     setNotesColl(notesData);
-  }, [data]);
+  }, []);
 
   return (
     <section className={styles.container}>
       <Greeting />
       <main>
-        {notesColl.map((note)=>{
-          return (
-          <Note key={note.id} color={note.color} text={note.text} date={note.createdAt} />
-          );
-        })}
+      {notesColl.map((note, i) => <Note key={note.id} text={note.text} date={note.createdAt} color={note.color} />)}
+            
       </main>
     </section>
   )

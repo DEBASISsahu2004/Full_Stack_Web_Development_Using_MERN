@@ -1,6 +1,5 @@
 import React from "react";
 import Login from "../pages/login";
-import Loader from "../components/shared/loader";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Notes from "../pages/notes";
 import Main from "../layouts/main";

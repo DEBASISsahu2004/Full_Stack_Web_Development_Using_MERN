@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 import Input from '../../atoms/input';
 
 function Navbar() {
-    const [searchText, setSearchText] = useState("");
+  const [searchText, setSearchText] = useState("");
 
   return (
     <header className={styles.header}>
@@ -25,4 +25,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
