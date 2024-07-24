@@ -32,7 +32,7 @@ function updateFromLocalStorage(key, newValue){
     }
 }
 
-function removeFromLocaStorage(key){
+function removeFromLocalStorage(key){
     localStorage.removeItem(key);
 }
 
@@ -40,7 +40,7 @@ const methods = {
     addToLocalStorage,
     getFromLocalStorage,
     updateFromLocalStorage,
-    removeFromLocaStorage,
+    removeFromLocalStorage,
 };
 
 export default methods;
