@@ -2,7 +2,7 @@ const {connect} = require("mongoose");
 require('dotenv').config();
 
 
-const MONGO_URL = "mongodb+srv://debasis:MONGODB@cluster0.pqqw5uj.mongodb.net";
+const MONGO_URL = process.env.MONGO_URL;
 
 const DB_NAME = `cs-mern`;
 
