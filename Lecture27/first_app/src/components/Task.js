@@ -61,7 +61,7 @@ const Task = ({task: incomingTask})=>{
                         </div>
                         <div className="ui basic red button" 
                             onClick={()=>setIsEditing(false)}>
-                            Cancle
+                            Cancel
                         </div>
                     </div>
                 </div>
