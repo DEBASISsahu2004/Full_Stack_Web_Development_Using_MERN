@@ -59,10 +59,11 @@ const WeatherPage=()=>{
             <div><WeatherSummary currentWeather={todayWeather} isCelcius={isCelcius}/></div>
             <table className="ui very basic table" style={!isDay ? {backgroundColor: "black",color:"white"}:{}}>
                 <thead className="table-custom">
-                    <th>Date</th>
-                    <th>Temperature</th>
-                    <th>Type</th>
-
+                    <tr>
+                        <th>Date</th>
+                        <th>Temperature</th>
+                        <th>Type</th>
+                    </tr>
                 </thead>
                 <tbody className="table-custom">
                     {weekWeather.map((weather)=>(
