@@ -1,7 +1,7 @@
-const dateFormatter = new Intl.DateTimeFormat("en-In", {
+const dateFormatter = new Intl.DateTimeFormat("en-IN", {
     // dateStyle: "medium",
     hour12: true,
-    hour: "numeric",   
+    hour: "numeric",
     minute: "numeric",
     year: "numeric",
     month: "short",
